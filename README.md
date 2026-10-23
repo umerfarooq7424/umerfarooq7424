@@ -22,6 +22,7 @@
 - 🏦 **5 years at the Central Bank** — Assistant Director, Monetary Policy: Bayesian VAR forecasting, stress testing, policy-rate implementation, government securities & money markets
 - 🏙️ **Center for Urban Policy Research** — Research Analyst: municipal fiscal & credit risk across **564 NJ municipalities / 3.5M+ parcels**
 - 📊 Presented municipal finance findings to **Moody's and S&P researchers**, mayors, planners & developers
+- 🎤 Co-presented *"Residential Demographic Multipliers for Impact Modeling"* with Prof. David Listokin — **NSF-funded** (awards CMMI-2053637, ICER-2103754), Florio Forum, Bloustein School, April 2025
 - 🎓 Rutgers (Masters, May 2025) · LUMS (BSc Economics, 2017)
 - 💬 Fluent: English · Urdu · Hindi · Punjabi · Persian
 - 🎯 Open to: Economic Analyst · Credit / Risk Analyst · Macroeconomic Analyst · Financial Analyst · Climate / Flood Risk · Renewable Energy Economics
@@ -41,28 +42,43 @@
 
 ---
 
-### 🚀 Featured projects — pin these, in this order
+### 🚀 Featured projects
 
 | # | Project | What it proves | Stack |
 |---|---|---|---|
 | 1 | [**US Housing & Demographics Explorer**](https://github.com/umerfarooq7424/Job-Sample-Code) | Interactive Streamlit dashboard — ACS 2017–2021, all 50 states + DC, demographic multipliers by housing type, tenure & value | Python · Streamlit · ACS |
-| 2 | [**Demographics — 50-State Dataset**](https://github.com/umerfarooq7424/Demographics) | The data engine behind the Explorer: household size, school-age & public-school children multipliers for every state | Python · CSV · ACS Microdata |
-| 3 | [**Final ML Project**](https://github.com/umerfarooq7424/final-ml-project) | Full ML pipeline: EDA, Random Forest, ARIMA time series, GridSearchCV tuning & evaluation | Python · scikit-learn · statsmodels |
-| 4 | [**Ragas Studio — RAG Evaluation**](https://github.com/umerfarooq7424/Ragas-Studio) | LLM / RAG experimentation: Mistral-7B-Instruct, prompt & validation techniques | Python · LangChain · RAGAS |
-| 5 | [**NJ Municipal Climate & Fiscal Risk**](https://github.com/umerfarooq7424/nj-municipal-climate-fiscal-risk) | State-scale geospatial + fiscal risk: 564 municipalities, $243B exposure, $4.1B revenue at risk | Python · ArcGIS Pro · GeoPandas |
-| 6 | [**Bayesian VAR Macro Forecasting**](https://github.com/umerfarooq7424/bayesian-var-macro-forecasting) | Central-bank BVAR forecasting & stress testing, +18% precision | Python · R · Stata · EViews |
+| 2 | [**Macro Yield Model**](https://github.com/umerfarooq7424/macro-yield-model) | Can macro data forecast the Treasury curve slope? Real-time ALFRED vintage panel, SPF expectations, expanding-window tests vs AR baseline | Python · SQL · FRED/ALFRED |
+| 3 | [**Demographic Multipliers Database**](https://github.com/umerfarooq7424/demographic-multipliers-database) | ACS 2018–2022 multipliers database + MySQL/Python query tools: people, age bands, school children by housing type & value | Python · MySQL · ACS |
+| 4 | [**NJ Fiscal Impact Analysis**](https://github.com/umerfarooq7424/nj-fiscal-impact-analysis) | Price-adjusted break-even / fiscal impact for 38 NJ communities + Camden: municipal & school costs vs property tax revenue | Excel Modelling · Fiscal Analysis |
+| 5 | [**Treasury Rates Monitor**](https://github.com/umerfarooq7424/treasury-rates-monitor) | FRED DGS2/DGS10 monitor with data-quality checks and a weekly client briefing | Python · FRED · QC |
+| 6 | [**FX Exposure Monitor**](https://github.com/umerfarooq7424/fx-exposure-monitor) | FX pipeline: Python normalization → SQLite → SQL analysis → client insight memo | Python · SQL · SQLite |
+| 7 | [**SEC Issuer Screen**](https://github.com/umerfarooq7424/sec-issuer-screen) | 3.9M SEC filing facts scanned; 1,905 manufacturing issuers screened with auditable coverage controls | Python · SEC EDGAR |
+| 8 | [**Demographics — 50-State Dataset**](https://github.com/umerfarooq7424/Demographics) | Household size, school-age & public-school children multipliers for every state | Python · CSV · ACS Microdata |
+| 9 | [**Final ML Project**](https://github.com/umerfarooq7424/final-ml-project) | Full ML pipeline: EDA, Random Forest, ARIMA time series, GridSearchCV tuning & evaluation | Python · scikit-learn · statsmodels |
+| 10 | [**Ragas Studio — RAG Evaluation**](https://github.com/umerfarooq7424/Ragas-Studio) | LLM / RAG experimentation: Mistral-7B-Instruct, prompt & validation techniques | Python · LangChain · RAGAS |
 
-> Projects 1–4 are live today. Projects 5–6 are my flagship professional analyses — code being prepared for public release with public / aggregated data only.
+All data is public (ACS, FRED/ALFRED, SPF, SEC EDGAR, BEA, NIST) or aggregated.
 
----|---|---|---|
-| 1 | [**NJ Municipal Climate & Fiscal Risk**](https://github.com/umerfarooq7424/nj-municipal-climate-fiscal-risk) | Large-scale geospatial + fiscal risk at state scale | Python · ArcGIS Pro · SQL · GeoPandas |
-| 2 | [**Bayesian VAR Macro Forecasting**](https://github.com/umerfarooq7424/bayesian-var-macro-forecasting) | Central-bank forecasting & stress testing | Python · R · Stata · EViews |
-| 3 | [**Yield Curve Analysis**](https://github.com/umerfarooq7424/yield-curve-analysis) | Rates / fixed-income fluency for markets roles | Python · pandas · matplotlib |
-| 4 | [**US Demographic Analysis — ACS**](https://github.com/umerfarooq7424/us-demographic-analysis-acs) | Product thinking: 12 ACS tables, all 50 states | Python · SQL · Tableau |
-| 5 | [**Municipal Credit & Fiscal Dashboard**](https://github.com/umerfarooq7424/municipal-credit-fiscal-dashboard) | Dashboards decision-makers actually use | Python · Excel/VBA · Power BI |
-| 6 | [**Cost of Climate Inaction**](https://github.com/umerfarooq7424/climate-cost-of-inaction) | Climate economics & scenario modelling | Python · Scenario Analysis |
+### 📚 More projects
 
-> Each repo README follows the same winning structure: problem → data → method → results → visuals → how to run → what I learned. Templates are ready for your code.
+| Project | What it is | Stack |
+|---|---|---|
+| [**Central Bank Macro Forecasting**](https://github.com/umerfarooq7424/central-bank-macro-forecasting) | Working papers from the Monetary Policy Department — incl. the first econometric model for forecasting trade in services (2022) | Econometrics · Forecasting |
+| [**Input–Output Economic Impact Analysis**](https://github.com/umerfarooq7424/input-output-economic-impact-analysis) | Leontief multipliers: NJ/PA gas pipeline impact, BEA supply–use tables, NAFTA value-added on WIOT | R · Input–Output |
+| [**Oil Shocks & US Inflation Forecasts**](https://github.com/umerfarooq7424/oil-shocks-us-inflation-forecasting) | ARIMA vs VAR in R — and why data-frequency alignment changes the answer; impulse responses | R · Time Series |
+| [**CONTAM Indoor Air Quality**](https://github.com/umerfarooq7424/contam-indoor-air-quality) | NIST CONTAM simulations: gas vs electric cooking, ventilation scenarios — PM2.5 up to 3,500 µg/m³ unventilated | CONTAM · Building Science |
+| [**Applied Multivariate Methods in R**](https://github.com/umerfarooq7424/applied-multivariate-methods-r) | Logistic/GLM, mixed models, multinomial, GEE — graduate statistical computing | R · Statistics |
+| [**Public Informatics Review Papers**](https://github.com/umerfarooq7424/public-informatics-review-papers) | Critical reviews: hybrid ML for housing prices; AI governance in the public sector | Research |
+
+---
+
+### 🏅 Certifications — Claude Academy (Anthropic)
+
+- **AI Fluency: Framework & Foundations** — [verify](https://academy.claude.com/verify/0703c5b5351111cd4467c9c14f27d245)
+- **AI Capabilities and Limitations** — [verify](https://academy.claude.com/verify/186c32618eeb7cf133e2a906864fbc11)
+- **Building Effective Human-Agent Teams** — [verify](https://academy.claude.com/verify/c136730c718634d3f5136f8886b3059e)
+
+*Certificates: [`certifications/`](https://github.com/umerfarooq7424/umerfarooq7424/tree/main/certifications)*
 
 ---
 
